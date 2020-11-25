@@ -1,23 +1,110 @@
-.svg-map{
-	width: 100%;
+.flex {
+  display: flex;
+  width: 100%;
+}
+.mapWight {
+	width: 50%;
 	height: 500px;
 }
-
+.hoveredWight {
+	width: 40%;
+  max-height: 300px;
+  min-height: 200px;
+	margin-left: 20px;
+}
 .svg-map__location {
   fill: #a1d99b;
-	cursor: pointer;
-
+  cursor: pointer;
 }
 .svg-map__location:hover {
-	fill: #b8e2b3;
-	outline: 0;
-
+  fill: #b8e2b3;
+  outline: 0;
 }
-
-#cherkasy.svg-map__location{
-	fill: red;
-	outline: 0;
+#cherkasy.svg-map__location {
+  fill: #97c11f;
+  outline: 0;
 }
-/* .svg-map__location[aria-checked="true"] {
-	fill: #f4bc44;
-} */
+#vinnytsia.svg-map__location {
+  fill: #0a405f;
+  outline: 0;
+}
+#dnipropetrovsk.svg-map__location {
+  fill: #34b449;
+  outline: 0;
+}
+#zhytomyr.svg-map__location {
+  fill: #34b449;
+  outline: 0;
+}
+#zakarpattia.svg-map__location {
+  fill: #fed95d;
+  outline: 0;
+}
+#ivano-frankivsk.svg-map__location {
+  fill: #0a3060;
+  outline: 0;
+}
+#sumy.svg-map__location {
+  fill: #34b449;
+  outline: 0;
+}
+#ternopil.svg-map__location {
+  fill: #0772f4;
+  outline: 0;
+}
+#kharkiv.svg-map__location {
+  fill: #008f2a;
+  outline: 0;
+}
+#chernivtsi.svg-map__location {
+  fill: #ec621f;
+  outline: 0;
+}
+#chernihiv.svg-map__location {
+  fill: #f3e200;
+  outline: 0;
+}
+#donetsk.svg-map__location {
+  fill: #818181;
+  outline: 0;
+}
+#luhansk.svg-map__location {
+  fill: #818181;
+  outline: 0;
+}
+#crimea.svg-map__location {
+  fill: #818181;
+  outline: 0;
+}
+#zaporizhia.svg-map__location {
+  fill: #0062b9;
+  outline: 0;
+}
+#lviv.svg-map__location {
+  fill: #0772f4;
+  outline: 0;
+}
+#volyn.svg-map__location {
+  fill: #5C018D;
+  outline: 0;
+}
+#kyiv.svg-map__location {
+  fill: #db1b22;
+  outline: 0;
+}
+#kyiv-city.svg-map__location {
+  fill: #db1b22;
+  outline: 0;
+}
+#odessa.svg-map__location {
+  fill: #0772f4;
+  outline: 0;
+}
+#khmelnytskyi.svg-map__location {
+  fill: #344f62;
+  outline: 0;
+}
+#poltava.svg-map__location {
+  fill: #046aa8;
+  outline: 0;
+}
